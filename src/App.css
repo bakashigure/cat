@@ -13,6 +13,19 @@
   }
 }
 
+.Banner{
+  text-align: left;
+}
+
+.Banner-header{
+  background-color: #282c34;
+  max-height: 50px;
+  min-height: 30px;
+  font-size: 10px;
+  color:white;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
