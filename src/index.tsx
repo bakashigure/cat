@@ -6,9 +6,7 @@ import Banner from './Banner'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-
         <Banner />,
-
     document.getElementById('banner')
 );
 

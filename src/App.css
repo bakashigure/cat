@@ -13,6 +13,14 @@
   }
 }
 
+@media (prefers-reduced-motion: no-preference){
+  .Ice-cream{
+    width:256px;
+    height: 480px;
+  }
+}
+
+
 .Banner{
   text-align: left;
 }
