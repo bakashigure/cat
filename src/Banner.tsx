@@ -10,14 +10,13 @@ function Banner() {
 
             <div className="Banner">
                 <header className="Banner-header">
-                    {banner_title}
+                    {/*banner_title*/}
+                    {/*   // <!--<img src="ice_cream.gif" alt="ice_cream" /> -->  };*/}
                 </header>
 
             </div>
 
-            <div className="Banner">
-            <img src="ice_cream.gif" alt="ice_cream" />
-            </div>
+
         </div>
     )
 }
