@@ -1,7 +1,5 @@
 body {
-  background-size:128px,240px;
-  background-image: url("ice_cream.gif");
-
+  background: aliceblue;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Consolas','Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

@@ -1,15 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Banner from './Banner'
+import {Content} from './App';
+import test from './scroll'
+import {Banner} from './Banner'
 import reportWebVitals from './reportWebVitals';
 
+
+test()
+
+// React? 狗都不用!
 ReactDOM.render(
-        <Banner />,
+    <Banner />,
     document.getElementById('banner')
 );
 
+ReactDOM.render(
+    <Content />,
+    document.getElementById('content')
+);
 
 /*
 ReactDOM.render(

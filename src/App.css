@@ -22,17 +22,37 @@
   }
 }
 
+.Content{
+   width:100%;
+   background-color:lightgoldenrodyellow;
+}
 
 .Banner{
+  width:100%;
+  position: fixed;
+  top:0;
+  z-index:5;
   text-align: left;
 }
 
 .Banner-header{
+  display:flex;
   background-color: #282c34;
-  max-height: 50px;
-  min-height: 0px;
-  font-size: 10px;
+  max-height: 200px;
+  height: calc(70px + 1vmin);
+  justify-content: left;
+  font-size: calc(20px + 1vmin);
   color:white;
+}
+
+.Banner-header-small{
+  display:flex;
+  background-color: #282c34;
+  max-height: 200px;
+  height: calc(70px + 1vmin);
+  justify-content: left;
+  font-size: calc(20px + 1vmin);
+  color:green;
 }
 
 
