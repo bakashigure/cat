@@ -36,9 +36,10 @@
   display:flex;
   background-color: #282c34;
   max-height: 200px;
-  height: calc(70px + 1vmin);
   justify-content: left;
-  font-size: calc(20px + 1vmin);
+}
+
+.banner_title{
   color:white;
 }
 
